@@ -47,6 +47,10 @@ body * {text-align: left;}
 .logo{height:349px;height:103px;}
 nav ul {
     background: url("../images/menu_loop.jpg");
+    border-radius: 5px;
+    border: #3B607D solid 1px;
+    border-bottom: 0;
+    border-top: 0;
 }
 nav ul li {display: inline-block; background: url("../images/menu_divider.jpg") no-repeat scroll right top;}
 nav ul li a {
