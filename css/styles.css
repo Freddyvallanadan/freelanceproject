@@ -41,6 +41,14 @@ table {
 	border-spacing: 0;
 }
 body,html {height:100%;}
+
+.clear {clear:both;}
+.left {float:left;}
+.right {float:right;}
+.center {text-align: center;}
+
+
+
 html {background:url("../images/bg.png") #000;}
 body {background:url("../images/footer_bg.jpg") scroll no-repeat center top;text-align: center;}
 body * {text-align: left;}
@@ -76,4 +84,16 @@ nav ul li a:hover {
 .banner_container {
     background: url('../images/wrapper_loop.jpg');
 }
-.main_banner {padding:3px;}
+.main_banner {padding:3px;height:290px;}
+
+.main_banner_right {
+    background: #0E0E0E;
+    padding:3px;
+    width:335px;
+}
+
+.main_banner_right > div {
+    height: 93px;
+    background: #2A2E30;
+    margin:3px;
+}
