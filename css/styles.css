@@ -41,7 +41,8 @@ table {
 	border-spacing: 0;
 }
 body,html {height:100%;}
-body {background:url("../images/footer_bg.jpg") scroll center top;text-align: center;}
+html {background:url("../images/bg.png") #000;}
+body {background:url("../images/footer_bg.jpg") scroll no-repeat center top;text-align: center;}
 body * {text-align: left;}
 .container {max-width: 960px; display: block;margin:0 auto;}
 .logo{height:349px;height:103px;}
@@ -72,3 +73,7 @@ nav ul li a:hover {
     text-decoration: none;
     text-shadow: 0 2px 3px rgba(0, 0, 0, 1);
 }
+.banner_container {
+    background: url('../images/wrapper_loop.jpg');
+}
+.main_banner {padding:3px;}
